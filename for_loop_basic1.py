@@ -24,15 +24,15 @@ for z in range (1,101,1):
             print ('Coding')
 
 maximum = int(500000)
-Oddtotal = 0
+sum = 0
 number = 1
 
 while number <= maximum:
     if(number % 2 != 0):
-        Oddtotal = Oddtotal + number
+        sum = sum + number
     number = number + 1
 
-print((Oddtotal))
+print((sum))
 
 for j in range(2018, 0, -4):
     print(j)
